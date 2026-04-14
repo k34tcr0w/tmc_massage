@@ -46,8 +46,8 @@ body {
     .wrapper .carousel {
         display: grid;
         grid-auto-flow: column;
-        /*grid-auto-columns: calc((100%) - 12px);*/
-        /*gap: 16px;*/
+        grid-auto-columns: calc((100%) - 12px);
+        gap: 16px;
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         scroll-behavior: smooth;
@@ -95,14 +95,14 @@ body {
 
 .card .img {
     background: green;
-    width: 505px;
-    height: 505px;
+    width: 305px;
+    height: 305px;
     border-radius: 50%;
 }
 
     .card .img img {
-        width: 500px;
-        height: 500px;
+        width: 300px;
+        height: 300px;
         object-fit: cover;
         border-radius: 50%;
         border: 4px solid #fff;
